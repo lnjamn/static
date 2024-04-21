@@ -101,6 +101,33 @@ proxies:
 #    headers:
 #      Host: abc.ygkkk.eu.org                       #host域名，与上面的servername一致
 #==============================（vless-ws-tls节点）
+- name: 新加坡3                           #可自定义名称
+  type: vless
+  server: 8.222.215.228                          #解析的域名或者优选域名IP
+  port: 8443                                      #自定义的端口
+  uuid: a091ec88-6daa-440d-88fe-e1a50fbcc7ad       #自定义的uuid
+  udp: true
+  tls: true
+  network: ws
+  servername: wk.lnjamn.cn.eu.org                     #sni域名，与下面的host一致
+  ws-opts:
+    path: "/?ed=2048"                              #" "内自定义的path路径
+    headers:
+      Host: wk.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
+- name: 美国7                           #可自定义名称
+  type: vless
+  server: 192.9.246.112                          #解析的域名或者优选域名IP
+  port: 8443                                      #自定义的端口
+  uuid: c3853442-1c89-47d9-83fc-ec6bd73fa06f       #自定义的uuid
+  udp: true
+  tls: true
+  network: ws
+  servername: pg.lnjamn.cn.eu.org                     #sni域名，与下面的host一致
+  ws-opts:
+    path: "/?ed=2048"                              #" "内自定义的path路径
+    headers:
+      Host: pg.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
+      
 - name: 美国6                           #可自定义名称
   type: vless
   server: 162.159.25.24                          #解析的域名或者优选域名IP
@@ -529,6 +556,8 @@ proxy-groups:
   proxies:
     #- warp-wireguard节点                                  #自定义添加协议的name字段
     #- vless-ws-tls节点
+    - 新加坡3
+    - 美国7
     - 美国6
     - 香港.中西区.cf.vless-ws节点1
     - 香港.中西区.cf.vless-ws节点2
@@ -563,6 +592,8 @@ proxy-groups:
   proxies:
     #- vless-reality-vision节点                            #自定义添加协议的name字段
     #- vless-reality-grpc节点
+     - 新加坡3
+     - 美国7
      - 美国6
      - 香港.中西区.cf.vless-ws节点1
      - 香港.中西区.cf.vless-ws节点2
@@ -598,6 +629,8 @@ proxy-groups:
     #- vless-reality-grpc节点
     #- vless-xtls-rprx-vision节点
     #- vless-ws-tls节点
+    - 新加坡3
+    - 美国7
     - 美国6
     - 香港.中西区.cf.vless-ws节点1
     - 香港.中西区.cf.vless-ws节点2
