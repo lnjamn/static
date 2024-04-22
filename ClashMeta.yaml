@@ -584,6 +584,8 @@ proxy-groups:
     #- warp-wireguard节点                                  #自定义添加协议的name字段
     #- vless-ws-tls节点
     - 新加坡3
+    - 新加坡4
+    - 新加坡5
     - 美国7
     - 美国6
     - 香港.中西区.cf.vless-ws节点1
@@ -620,6 +622,8 @@ proxy-groups:
     #- vless-reality-vision节点                            #自定义添加协议的name字段
     #- vless-reality-grpc节点
      - 新加坡3
+     - 新加坡4
+     - 新加坡5
      - 美国7
      - 美国6
      - 香港.中西区.cf.vless-ws节点1
@@ -657,6 +661,8 @@ proxy-groups:
     #- vless-xtls-rprx-vision节点
     #- vless-ws-tls节点
     - 新加坡3
+    - 新加坡4
+    - 新加坡5
     - 美国7
     - 美国6
     - 香港.中西区.cf.vless-ws节点1
