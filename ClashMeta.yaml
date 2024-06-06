@@ -109,11 +109,11 @@ proxies:
   udp: true
   tls: true
   network: ws
-  servername: wk.lnjamn.cn.eu.org                     #sni域名，与下面的host一致
+  servername: wkvless.lnjamn.cn.eu.org                     #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: wk.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
+      Host: wkvless.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
 - name: 新加坡4                           #可自定义名称
   type: vless
   server: 8.222.249.190                         #解析的域名或者优选域名IP
@@ -122,11 +122,11 @@ proxies:
   udp: true
   tls: true
   network: ws
-  servername: pg.lnjamn.cn.eu.org                     #sni域名，与下面的host一致
+  servername: pgvless.lnjamn.cn.eu.org                     #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: pg.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
+      Host: pgvless.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
 - name: 新加坡5                           #可自定义名称
   type: vless
   server: 8.222.199.55                         #解析的域名或者优选域名IP
@@ -135,11 +135,11 @@ proxies:
   udp: true
   tls: true
   network: ws
-  servername: pg.lnjamn.cn.eu.org                     #sni域名，与下面的host一致
+  servername: pgvless.lnjamn.cn.eu.org                     #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: pg.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
+      Host: pgvless.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
       
 - name: 美国7                           #可自定义名称
   type: vless
@@ -149,11 +149,11 @@ proxies:
   udp: true
   tls: true
   network: ws
-  servername: pg.lnjamn.cn.eu.org                     #sni域名，与下面的host一致
+  servername: pgvless.lnjamn.cn.eu.org                     #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: pg.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
+      Host: pgvless.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
       
 - name: 美国6                           #可自定义名称
   type: vless
@@ -163,11 +163,11 @@ proxies:
   udp: true
   tls: true
   network: ws
-  servername: pg.lnjamn.cn.eu.org                     #sni域名，与下面的host一致
+  servername: pgvless.lnjamn.cn.eu.org                     #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: pg.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
+      Host: pgvless.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
 
 #==============================（vless-ws节点）
 - name: 日本.成田市.cf.vless-ws节点                               #可自定义名称
@@ -178,11 +178,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cf.lnjamn.workers.dev                     #sni域名，与下面的host一致
+  servername: wkvless.lnjamn.workers.dev                     #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: cf.lnjamn.workers.dev                       #host域名，与上面的servername一致
+      Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
 - name: 香港.中西区.cf.vless-ws节点1                               #可自定义名称
   type: vless
   server: 163.53.18.170                          #解析的域名或者优选域名IP
@@ -191,11 +191,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cf.lnjamn.workers.dev                     #sni域名，与下面的host一致
+  servername: wkvless.lnjamn.workers.dev                     #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: cf.lnjamn.workers.dev                       #host域名，与上面的servername一致
+      Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
 - name: 美国.加州.聖荷西.cf.vless-ws节点                               #可自定义名称
   type: vless
   server: 104.19.172.151                          #解析的域名或者优选域名IP
@@ -204,11 +204,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cf.lnjamn.workers.dev                     #sni域名，与下面的host一致
+  servername: wkvless.lnjamn.workers.dev                     #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: cf.lnjamn.workers.dev                       #host域名，与上面的servername一致
+      Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
 - name: 美国.加州.东洛杉矶.cf.vless-ws节点                               #可自定义名称
   type: vless
   server: 104.128.95.235                          #解析的域名或者优选域名IP
@@ -217,11 +217,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cf.lnjamn.workers.dev                     #sni域名，与下面的host一致
+  servername: wkvless.lnjamn.workers.dev                     #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: cf.lnjamn.workers.dev                       #host域名，与上面的servername一致
+      Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
 - name: 新加坡.cf.vless-ws节点1                               #可自定义名称
   type: vless
   server: 8.222.131.102                          #解析的域名或者优选域名IP
@@ -230,11 +230,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cf.lnjamn.workers.dev                     #sni域名，与下面的host一致
+  servername: wkvless.lnjamn.workers.dev                     #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: cf.lnjamn.workers.dev                       #host域名，与上面的servername一致
+      Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
 - name: 香港.中西区.cf.vless-ws节点2                               #可自定义名称
   type: vless
   server: 163.53.18.167                          #解析的域名或者优选域名IP
@@ -243,11 +243,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cf.lnjamn.workers.dev                     #sni域名，与下面的host一致
+  servername: wkvless.lnjamn.workers.dev                     #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: cf.lnjamn.workers.dev                       #host域名，与上面的servername一致
+      Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
 - name: 香港.中西区.cf.vless-ws节点3                               #可自定义名称
   type: vless
   server: 163.53.18.165                          #解析的域名或者优选域名IP
@@ -256,11 +256,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cf.lnjamn.workers.dev                     #sni域名，与下面的host一致
+  servername: wkvless.lnjamn.workers.dev                    #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: cf.lnjamn.workers.dev                       #host域名，与上面的servername一致
+      Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
 - name: 香港.中西区.cf.vless-ws节点4                               #可自定义名称
   type: vless
   server: 163.53.18.164                          #解析的域名或者优选域名IP
@@ -269,11 +269,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cf.lnjamn.workers.dev                     #sni域名，与下面的host一致
+  servername: wkvless.lnjamn.workers.dev                     #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: cf.lnjamn.workers.dev                       #host域名，与上面的servername一致
+      Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
 - name: 新加坡.cf.vless-ws节点2                               #可自定义名称
   type: vless
   server: 43.134.165.18                          #解析的域名或者优选域名IP
@@ -282,11 +282,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cf.lnjamn.workers.dev                     #sni域名，与下面的host一致
+  servername: wkvless.lnjamn.workers.dev                     #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: cf.lnjamn.workers.dev                       #host域名，与上面的servername一致
+      Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
 - name: 美国1                               #可自定义名称
   type: vless
   server: 172.64.147.161                          #解析的域名或者优选域名IP
@@ -295,11 +295,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cf.lnjamn.workers.dev                     #sni域名，与下面的host一致
+  servername: wkvless.lnjamn.workers.dev                     #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: cf.lnjamn.workers.dev                       #host域名，与上面的servername一致
+      Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
 - name: 美国2                               #可自定义名称
   type: vless
   server: 172.66.45.145                          #解析的域名或者优选域名IP
@@ -308,11 +308,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cf.lnjamn.workers.dev                     #sni域名，与下面的host一致
+  servername: wkvless.lnjamn.workers.dev                     #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: cf.lnjamn.workers.dev                       #host域名，与上面的servername一致
+      Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
 - name: 美国3                               #可自定义名称
   type: vless
   server: 172.64.68.111                          #解析的域名或者优选域名IP
@@ -321,11 +321,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cf.lnjamn.workers.dev                     #sni域名，与下面的host一致
+  servername: wkvless.lnjamn.workers.dev                     #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: cf.lnjamn.workers.dev                       #host域名，与上面的servername一致
+      Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
 - name: 美国4                               #可自定义名称
   type: vless
   server: 162.159.26.151                          #解析的域名或者优选域名IP
@@ -334,11 +334,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cf.lnjamn.workers.dev                     #sni域名，与下面的host一致
+  servername: wkvless.lnjamn.workers.dev                     #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: cf.lnjamn.workers.dev                       #host域名，与上面的servername一致
+      Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
 - name: 美国5                               #可自定义名称
   type: vless
   server: 162.159.200.216                          #解析的域名或者优选域名IP
@@ -347,11 +347,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cf.lnjamn.workers.dev                     #sni域名，与下面的host一致
+  servername: wkvless.lnjamn.workers.dev                     #sni域名，与下面的host一致
   ws-opts:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
-      Host: cf.lnjamn.workers.dev                       #host域名，与上面的servername一致
+      Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
 #==============================（vmess-ws-tls节点）
 #- name: vmess-ws-tls节点                           #可自定义名称
 #  type: vmess
