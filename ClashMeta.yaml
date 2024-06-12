@@ -559,7 +559,6 @@ proxy-groups:
      - 新加坡3
      - 新加坡4
      - 新加坡5
-     - trojan-tcp-tls节点-新加坡01
      - 美国7
      - 美国6
      - 香港.中西区.cf.vless-ws节点1
@@ -601,7 +600,6 @@ proxy-groups:
      - 新加坡3
      - 新加坡4
      - 新加坡5
-     - trojan-tcp-tls节点-新加坡01
      - 美国7
      - 美国6
      - 香港.中西区.cf.vless-ws节点1
