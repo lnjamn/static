@@ -406,19 +406,18 @@ proxies:
   port: 8443                                      #自定义的端口
   password: trojan                              #自定义的密码
   network: ws
+  sni: pgtrojan.pages.dev                             #sni域名，与上面server地址一致
+  skip-cert-verify: false
   client-fingerprint: chrome
   udp: true
-  tcp: true
-  tls: true
   ws-opts:
     path: "/?ed=2560" 
      headers:
       Host: pgtrojan.pages.dev 
-  sni: pgtrojan.pages.dev                             #sni域名，与上面server地址一致
   alpn:
     - h2
     - http/1.1
-  skip-cert-verify: false
+  
     
 #==============================（hysteria1证书节点）
 #- name: hysteria1证书节点                            #可自定义名称
