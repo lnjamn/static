@@ -410,6 +410,10 @@ proxies:
   udp: true
   tcp: true
   tls: true
+  ws-opts:
+    path: "/?ed=2560" 
+     headers:
+      Host: pgtrojan.pages.dev 
   sni: pgtrojan.pages.dev                             #sni域名，与上面server地址一致
   alpn:
     - h2
