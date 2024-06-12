@@ -402,8 +402,8 @@ proxies:
 
 - name: trojan-tcp-tls节点-新加坡01                         #可自定义名称
   type: trojan
-  server: 8.222.249.190:8443                          #解析的域名
-  port: 12345                                      #自定义的端口
+  server: 8.222.249.190                            #解析的域名
+  port: 8443                                      #自定义的端口
   password: trojan                              #自定义的密码
   client-fingerprint: chrome
   udp: true
