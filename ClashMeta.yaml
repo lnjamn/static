@@ -414,9 +414,7 @@ proxies:
     path: "/?ed=2560" 
      headers:
       Host: pgtrojan.pages.dev 
-  alpn:
-    - h2
-    - http/1.1
+
   
     
 #==============================（hysteria1证书节点）
