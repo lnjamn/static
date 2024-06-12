@@ -407,6 +407,7 @@ proxies:
   password: trojan                              #自定义的密码
   client-fingerprint: chrome
   udp: true
+  tcp: true
   tls: true
   sni: pgtrojan.pages.dev                             #sni域名，与上面server地址一致
   alpn:
