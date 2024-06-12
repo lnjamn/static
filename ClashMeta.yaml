@@ -402,9 +402,9 @@ proxies:
 
 - name: trojan-tcp-tls节点-新加坡01                         #可自定义名称
   type: trojan
-  server: 162.159.25.24                            #解析的域名
+  server: 162.159.25.24                           #解析的域名
   port: 8443                                      #自定义的端口
-  password: trojan                              #自定义的密码
+  password: trojan                             #自定义的密码
   network: ws
   sni: pgtrojan.pages.dev                             #sni域名，与上面server地址一致
   skip-cert-verify: false
@@ -412,7 +412,7 @@ proxies:
   udp: true
   ws-opts:
     path: "/?ed=2560" 
-     headers:
+    headers:
       Host: pgtrojan.pages.dev 
 
   
