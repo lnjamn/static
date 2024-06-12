@@ -399,6 +399,19 @@ proxies:
 #    - h2
 #    - http/1.1
 #  skip-cert-verify: false
+
+- name: trojan-tcp-tls节点-新加坡01                         #可自定义名称
+  type: trojan
+  server: 8.222.152.165                          #解析的域名
+  port: 12345                                      #自定义的端口
+  password: trojan                              #自定义的密码
+  client-fingerprint: chrome
+  udp: true
+  sni: pgtrojan.pages.dev                             #sni域名，与上面server地址一致
+  alpn:
+    - h2
+    - http/1.1
+  skip-cert-verify: false
     
 #==============================（hysteria1证书节点）
 #- name: hysteria1证书节点                            #可自定义名称
@@ -586,6 +599,7 @@ proxy-groups:
     - 新加坡3
     - 新加坡4
     - 新加坡5
+    - trojan-tcp-tls节点-新加坡01
     - 美国7
     - 美国6
     - 香港.中西区.cf.vless-ws节点1
@@ -624,6 +638,7 @@ proxy-groups:
      - 新加坡3
      - 新加坡4
      - 新加坡5
+     - trojan-tcp-tls节点-新加坡01
      - 美国7
      - 美国6
      - 香港.中西区.cf.vless-ws节点1
@@ -663,6 +678,7 @@ proxy-groups:
     - 新加坡3
     - 新加坡4
     - 新加坡5
+    - trojan-tcp-tls节点-新加坡01
     - 美国7
     - 美国6
     - 香港.中西区.cf.vless-ws节点1
