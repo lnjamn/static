@@ -553,7 +553,7 @@ proxy-groups:
       #- tuic-V5证书节点
       #- tuic-V5自签节点 
       #- warp-wireguard节点
-      - 新加坡3
+    - 新加坡3
     - 新加坡4
     - 新加坡5
     - 美国7
