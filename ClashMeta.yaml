@@ -405,6 +405,7 @@ proxies:
   server: 162.159.25.24                            #解析的域名
   port: 8443                                      #自定义的端口
   password: trojan                              #自定义的密码
+  network: ws
   client-fingerprint: chrome
   udp: true
   tcp: true
