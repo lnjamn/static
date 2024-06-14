@@ -556,8 +556,8 @@ proxy-groups:
     - hysteria1自签节点
     - hysteria2证书节点
     - hysteria2自签节点
-    - tuic-V5证书节点
-    - tuic-V5自签节点 
+    #- tuic-V5证书节点
+    #- tuic-V5自签节点 
     - warp-wireguard节点
 
 
