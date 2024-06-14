@@ -577,9 +577,9 @@ proxy-groups:
 - name: 🌍选择代理节点
   type: select
   proxies:
-    - 负载均衡                                            #自定义添加协议的name字段
-    - 自动选择
-    - DIRECT
+    -  负载均衡     #自定义添加协议的name字段
+    -  自动选择
+    -  DIRECT
     #- vless-reality-vision节点                                    
     #- vless-reality-grpc节点
     #- vless-xtls-rprx-vision节点
