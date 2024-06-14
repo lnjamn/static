@@ -46,7 +46,7 @@ proxies:
   network: tcp
   udp: true
   tls: true
-  flow: xtls-rprx-vision
+  #flow: xtls-rprx-vision
   servername: www.yahoo.com                   #自定义的第三方域名
   reality-opts: 
     public-key: 4CiE7y7ZPBXIZWzMwphuSH7qdZyisNjD3CDQGjmilmI    #自定义的public-key
