@@ -535,8 +535,8 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-    - vless-reality-vision节点                            #自定义添加协议的name字段
-    - vless-reality-grpc节点
+    #- vless-reality-vision节点                            #自定义添加协议的name字段
+    #- vless-reality-grpc节点
     
 - name: 🌍选择代理节点
   type: select
@@ -544,9 +544,9 @@ proxy-groups:
     - 负载均衡                                            #自定义添加协议的name字段
     - 自动选择
     - DIRECT
-    - vless-reality-vision节点                                    
-    - vless-reality-grpc节点
-    - vless-xtls-rprx-vision节点
+    #- vless-reality-vision节点                                    
+    #- vless-reality-grpc节点
+    #- vless-xtls-rprx-vision节点
     - vless-ws-tls节点
     - vless-ws节点
     - vmess-ws-tls节点
