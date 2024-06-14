@@ -80,7 +80,7 @@ proxies:
   network: tcp
   tls: true
   udp: true
-  flow: xtls-rprx-vision
+  #flow: xtls-rprx-vision
   client-fingerprint: chrome
 
 #==============================（vless-ws-tls节点）
