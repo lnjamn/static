@@ -72,16 +72,16 @@ proxies:
     short-id: 24410d1c                          #自定义的short-id
 
 #==============================（vless-xtls-rprx-vision节点）
-- name: vless-xtls-rprx-vision节点              #可自定义名称
-  type: vless
-  server: yg.ygkkk.eu.org                      #解析的域名
-  port: 12345                                  #自定义的端口
-  uuid: a091ec88-6daa-440d-88fe-e1a50fbcc7ad  #自定义的uuid
-  network: tcp
-  tls: true
-  udp: true
-  #flow: xtls-rprx-vision
-  client-fingerprint: chrome
+#- name: vless-xtls-rprx-vision节点              #可自定义名称
+#  type: vless
+#  server: yg.ygkkk.eu.org                      #解析的域名
+#  port: 12345                                  #自定义的端口
+#  uuid: a091ec88-6daa-440d-88fe-e1a50fbcc7ad  #自定义的uuid
+#  network: tcp
+#  tls: true
+#  udp: true
+#  #flow: xtls-rprx-vision
+#  client-fingerprint: chrome
 
 #==============================（vless-ws-tls节点）
 - name: vless-ws-tls节点                           #可自定义名称
