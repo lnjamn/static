@@ -528,25 +528,25 @@ proxy-groups:
     #- warp-wireguard节点                                  #自定义添加协议的name字段
     #- vless-ws-tls节点
     #- vless-ws节点
-    - 新加坡3
-    - 新加坡4
-    - 新加坡5
-    - 美国7
-    - 美国6
-    - 香港.中西区.cf.vless-ws节点1
-    - 香港.中西区.cf.vless-ws节点2
-    - 香港.中西区.cf.vless-ws节点3
-    - 香港.中西区.cf.vless-ws节点4
-    - 新加坡.cf.vless-ws节点1
-    - 新加坡.cf.vless-ws节点2
-    - 日本.成田市.cf.vless-ws节点
-    - 美国.加州.聖荷西.cf.vless-ws节点
-    - 美国.加州.东洛杉矶.cf.vless-ws节点
-    - 美国1
-    - 美国2
-    - 美国3
-    - 美国4
-    - 美国5
+     - 新加坡3
+     - 新加坡4
+     - 新加坡5
+     - 美国7
+     - 美国6
+     - 香港.中西区.cf.vless-ws节点1
+     - 香港.中西区.cf.vless-ws节点2
+     - 香港.中西区.cf.vless-ws节点3
+     - 香港.中西区.cf.vless-ws节点4
+     - 新加坡.cf.vless-ws节点1
+     - 新加坡.cf.vless-ws节点2
+     - 日本.成田市.cf.vless-ws节点
+     - 美国.加州.聖荷西.cf.vless-ws节点
+     - 美国.加州.东洛杉矶.cf.vless-ws节点
+     - 美国1
+     - 美国2
+     - 美国3
+     - 美国4
+     - 美国5
 
 
 - name: 自动选择
@@ -557,25 +557,25 @@ proxy-groups:
   proxies:
     #- vless-reality-vision节点                            #自定义添加协议的name字段
     #- vless-reality-grpc节点
-    - 新加坡3
-    - 新加坡4
-    - 新加坡5
-    - 美国7
-    - 美国6
-    - 香港.中西区.cf.vless-ws节点1
-    - 香港.中西区.cf.vless-ws节点2
-    - 香港.中西区.cf.vless-ws节点3
-    - 香港.中西区.cf.vless-ws节点4
-    - 新加坡.cf.vless-ws节点1
-    - 新加坡.cf.vless-ws节点2
-    - 日本.成田市.cf.vless-ws节点
-    - 美国.加州.聖荷西.cf.vless-ws节点
-    - 美国.加州.东洛杉矶.cf.vless-ws节点
-    - 美国1
-    - 美国2
-    - 美国3
-    - 美国4
-    - 美国5
+      - 新加坡3
+     - 新加坡4
+     - 新加坡5
+     - 美国7
+     - 美国6
+     - 香港.中西区.cf.vless-ws节点1
+     - 香港.中西区.cf.vless-ws节点2
+     - 香港.中西区.cf.vless-ws节点3
+     - 香港.中西区.cf.vless-ws节点4
+     - 新加坡.cf.vless-ws节点1
+     - 新加坡.cf.vless-ws节点2
+     - 日本.成田市.cf.vless-ws节点
+     - 美国.加州.聖荷西.cf.vless-ws节点
+     - 美国.加州.东洛杉矶.cf.vless-ws节点
+     - 美国1
+     - 美国2
+     - 美国3
+     - 美国4
+     - 美国5
 
 - name: 🌍选择代理节点
   type: select
@@ -598,25 +598,25 @@ proxy-groups:
     #- tuic-V5证书节点
     #- tuic-V5自签节点 
     #- warp-wireguard节点
-    - 新加坡3
-    - 新加坡4
-    - 新加坡5
-    - 美国7
-    - 美国6
-    - 香港.中西区.cf.vless-ws节点1
-    - 香港.中西区.cf.vless-ws节点2
-    - 香港.中西区.cf.vless-ws节点3
-    - 香港.中西区.cf.vless-ws节点4
-    - 新加坡.cf.vless-ws节点1
-    - 新加坡.cf.vless-ws节点2
-    - 日本.成田市.cf.vless-ws节点
-    - 美国.加州.聖荷西.cf.vless-ws节点
-    - 美国.加州.东洛杉矶.cf.vless-ws节点
-    - 美国1
-    - 美国2
-    - 美国3
-    - 美国4
-    - 美国5
+     - 新加坡3
+     - 新加坡4
+     - 新加坡5
+     - 美国7
+     - 美国6
+     - 香港.中西区.cf.vless-ws节点1
+     - 香港.中西区.cf.vless-ws节点2
+     - 香港.中西区.cf.vless-ws节点3
+     - 香港.中西区.cf.vless-ws节点4
+     - 新加坡.cf.vless-ws节点1
+     - 新加坡.cf.vless-ws节点2
+     - 日本.成田市.cf.vless-ws节点
+     - 美国.加州.聖荷西.cf.vless-ws节点
+     - 美国.加州.东洛杉矶.cf.vless-ws节点
+     - 美国1
+     - 美国2
+     - 美国3
+     - 美国4
+     - 美国5
 
 
 
