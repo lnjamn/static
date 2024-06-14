@@ -58,7 +58,7 @@ proxies:
   type: vless
   server: 1.2.3.4                               #解析的域名或IP
   port: 12345                                   #自定义的端口
-  uuid: 335ec5dd-61b1-4413-980e-5e009968f633   #自定义的uuid
+  uuid: a091ec88-6daa-440d-88fe-e1a50fbcc7ad    #自定义的uuid
   network: grpc
   tls: true
   udp: true
@@ -76,7 +76,7 @@ proxies:
   type: vless
   server: yg.ygkkk.eu.org                      #解析的域名
   port: 12345                                  #自定义的端口
-  uuid: 5f74f86b-3ee8-44f4-adc4-6666be3d315    #自定义的uuid
+  uuid: a091ec88-6daa-440d-88fe-e1a50fbcc7ad    #自定义的uuid
   network: tcp
   tls: true
   udp: true
@@ -88,7 +88,7 @@ proxies:
   type: vless
   server: yg.ygkkk.eu.org                          #解析的域名或者优选域名IP
   port: 12345                                      #自定义的端口
-  uuid: 3cc9a51c-db76-4ad2-a76b-8cb993bddb73       #自定义的uuid
+  uuid: a091ec88-6daa-440d-88fe-e1a50fbcc7ad       #自定义的uuid
   udp: true
   tls: true
   network: ws
@@ -103,7 +103,7 @@ proxies:
   type: vless
   server: yg.ygkkk.eu.org                          #解析的域名或者优选域名IP
   port: 8880                                       #自定义的端口
-  uuid: 77a571fb-4fd2-4b37-8596-1b7d9728bb5c       #自定义的uuid
+  uuid: a091ec88-6daa-440d-88fe-e1a50fbcc7ad       #自定义的uuid
   udp: true
   tls: false
   network: ws
