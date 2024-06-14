@@ -547,8 +547,6 @@ proxy-groups:
      - 美国3
      - 美国4
      - 美国5
-
-
 - name: 自动选择
   type: url-test
   url: https://cp.cloudflare.com/generate_204
@@ -557,7 +555,7 @@ proxy-groups:
   proxies:
     #- vless-reality-vision节点                            #自定义添加协议的name字段
     #- vless-reality-grpc节点
-      - 新加坡3
+     - 新加坡3
      - 新加坡4
      - 新加坡5
      - 美国7
@@ -576,7 +574,6 @@ proxy-groups:
      - 美国3
      - 美国4
      - 美国5
-
 - name: 🌍选择代理节点
   type: select
   proxies:
@@ -617,9 +614,6 @@ proxy-groups:
      - 美国3
      - 美国4
      - 美国5
-
-
-
 #（四区）==============================（代理规则）
 #代理规则可自行添加 
 rules:
