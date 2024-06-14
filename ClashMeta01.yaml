@@ -42,7 +42,7 @@ proxies:
   type: vless
   server: 1.2.3.4                             #解析的域名或IP
   port: 12345                                 #自定义的端口
-  uuid: a091ec88-6daa-440d-88fe-e1a50fbcc7ad   #自定义的uuid
+  uuid: a091ec88-6daa-440d-88fe-e1a50fbcc7ad #自定义的uuid
   network: tcp
   udp: true
   tls: true
