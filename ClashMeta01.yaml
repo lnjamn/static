@@ -37,7 +37,7 @@ dns:
 #（二区）==============================（代理协议）
 #当前12个协议节点配置模版，按需求修改，如某协议节点不用，则无需删除，确保三区代理分流中没有该name节点名称即可
 proxies:
-#==============================（vless-reality-vision节点）
+#==============================（vless-reality-vision节点0）
 - name: vless-reality-vision节点               #可自定义名称
   type: vless
   server: 1.2.3.4                             #解析的域名或IP
@@ -53,7 +53,7 @@ proxies:
     short-id: a8c031ce                        #自定义的short-id
   client-fingerprint: chrome                  #自定义的浏览器指纹
 
-#==============================（vless-reality-grpc节点）
+#==============================（vless-reality-grpc节点1）
 - name: vless-reality-grpc节点                  #可自定义名称
   type: vless
   server: 1.2.3.4                               #解析的域名或IP
@@ -71,7 +71,7 @@ proxies:
     public-key: Aqp9oy2EFi4NNfRMZa3I3HdGhHbOIiSDZ8L28UCF73k    #自定义的public-key
     short-id: 24410d1c                          #自定义的short-id
 
-#==============================（vless-xtls-rprx-vision节点）
+#==============================（vless-xtls-rprx-vision节点2）
 #- name: vless-xtls-rprx-vision节点              #可自定义名称
 #  type: vless
 #  server: yg.ygkkk.eu.org                      #解析的域名
@@ -83,7 +83,7 @@ proxies:
 #  #flow: xtls-rprx-vision
 #  client-fingerprint: chrome
 
-#==============================（vless-ws-tls节点）
+#==============================（vless-ws-tls节点3）
 - name: vless-ws-tls节点                           #可自定义名称
   type: vless
   server: yg.ygkkk.eu.org                          #解析的域名或者优选域名IP
@@ -98,7 +98,7 @@ proxies:
     headers:
       Host: abc.ygkkk.eu.org                       #host域名，与上面的servername一致
 
-#==============================（vless-ws节点）
+#==============================（vless-ws节点4）
 - name: vless-ws节点                               #可自定义名称
   type: vless
   server: yg.ygkkk.eu.org                          #解析的域名或者优选域名IP
@@ -113,7 +113,7 @@ proxies:
     headers:
       Host: abc.ygkkk.eu.org                       #host域名，与上面的servername一致
 
-#==============================（vmess-ws-tls节点）
+#==============================（vmess-ws-tls节点5）
 - name: vmess-ws-tls节点                           #可自定义名称
   type: vmess
   server: yg.ygkkk.eu.org                          #解析的域名或者优选域名IP
@@ -130,7 +130,7 @@ proxies:
     headers:
       Host: abc.ygkkk.eu.org                       #host域名，与上面的servername一致
 
-#==============================（vmess-ws节点）
+#==============================（vmess-ws节点6）
 - name: vmess-ws节点                               #可自定义名称
   type: vmess
   server: yg.ygkkk.eu.org                          #解析的域名或者优选域名IP
@@ -147,7 +147,7 @@ proxies:
     headers:
       Host: abc.ygkkk.eu.org                       #host域名，与上面的servername一致
 
-#==============================（trojan-tcp-tls节点）
+#==============================（trojan-tcp-tls节点7）
 - name: trojan-tcp-tls节点                         #可自定义名称
   type: trojan
   server: yg.ygkkk.eu.org                          #解析的域名
@@ -161,7 +161,7 @@ proxies:
     - http/1.1
   skip-cert-verify: false
     
-#==============================（hysteria1证书节点）
+#==============================（hysteria1证书节点8）
 - name: hysteria1证书节点                            #可自定义名称
   type: hysteria
   server: yg.ygkkk.eu.org                          #解析的域名
@@ -176,7 +176,7 @@ proxies:
   skip-cert-verify: false
   fast-open: true
     
-#==============================（hysteria1自签节点）
+#==============================（hysteria1自签节点9）
 - name: hysteria1自签节点                           #可自定义名称
   type: hysteria
   server: 1.2.3.4                                  #服务器本地IP
@@ -191,7 +191,7 @@ proxies:
   skip-cert-verify: true
   fast-open: true
 
-#==============================（hysteria2证书节点）
+#==============================（hysteria2证书节点10）
 - name: hysteria2证书节点                            #可自定义名称
   type: hysteria2 
   server: yg.ygkkk.eu.org                            #解析的域名
@@ -205,21 +205,21 @@ proxies:
   skip-cert-verify: false
   fast-open: true
 
-#==============================（hysteria2自签节点）
-- name: hysteria2自签节点                             #可自定义名称
-  type: hysteria2                                      
-  server: 1.2.3.4                                     #服务器本地IP
-  port: 12345                                         #自定义的端口，不支持多端口
-  password: 123456                                    #自定义的密码 
-  obfs: salamander                                    #obfs混淆开启，未开启请删除此行 
-  obfs-password: 123456                               #obfs混淆密码，未开启请删除此行     
-  alpn:
-    - h3
-  sni: www.bing.com                                    #自签证书
-  skip-cert-verify: true
-  fast-open: true
+#==============================（hysteria2自签节点11）
+#- name: hysteria2自签节点                             #可自定义名称
+#  type: hysteria2                                      
+#  server: 1.2.3.4                                     #服务器本地IP
+#  port: 12345                                         #自定义的端口，不支持多端口
+#  password: 123456                                    #自定义的密码 
+#  obfs: salamander                                    #obfs混淆开启，未开启请删除此行 
+#  obfs-password: 123456                               #obfs混淆密码，未开启请删除此行     
+#  alpn:
+#    - h3
+#  sni: www.bing.com                                    #自签证书
+#  skip-cert-verify: true
+#  fast-open: true
     
-#==============================（tuic-V5证书节点）
+#==============================（tuic-V5证书节点12）
 #- name: tuic-V5证书节点                              #可自定义名称
 #  server: yg.ygkkk.eu.org                          #解析的域名或IP
 #  port: 12345                                      #自定义的端口
@@ -235,7 +235,7 @@ proxies:
 #  skip-cert-verify: false
 
 
-#==============================（tuic-V5自签节点）
+#==============================（tuic-V5自签节点13）
 #- name: tuic-V5自签节点                              #可自定义名称
 #  server: 1.2.3.4                                   #服务器本地IP
 #  port: 12345                                       #自定义的端口
@@ -251,7 +251,7 @@ proxies:
 #  skip-cert-verify: true
   
 
-#==============================（warp-wireguard节点）  
+#==============================（warp-wireguard节点14）  
 - name: warp-wireguard节点                                   #可自定义名称
   type: wireguard         
   server: 162.159.193.10                                     #可自定义优选对端IP，与下面port的端口相对应
@@ -555,7 +555,7 @@ proxy-groups:
     - hysteria1证书节点
     - hysteria1自签节点
     - hysteria2证书节点
-    - hysteria2自签节点
+    #- hysteria2自签节点
     #- tuic-V5证书节点
     #- tuic-V5自签节点 
     - warp-wireguard节点
