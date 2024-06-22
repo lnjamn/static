@@ -372,8 +372,8 @@ proxies:
       Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
 - name: 美国.加州.东洛杉矶.cf.vless-ws节点                               #可自定义名称
   type: vless
-  server: 104.128.95.235                          #解析的域名或者优选域名IP
-  port: 80                                       #自定义的端口
+  server: 172.64.151.163                          #解析的域名或者优选域名IP
+  port: 8080                                       #自定义的端口
   uuid: a091ec88-6daa-440d-88fe-e1a50fbcc7ad       #自定义的uuid
   udp: true
   tls: false
@@ -450,7 +450,7 @@ proxies:
       Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
 - name: 美国1                               #可自定义名称
   type: vless
-  server: 172.64.147.161                          #解析的域名或者优选域名IP
+  server: 172.64.160.195                          #解析的域名或者优选域名IP
   port: 8080                                       #自定义的端口
   uuid: a091ec88-6daa-440d-88fe-e1a50fbcc7ad       #自定义的uuid
   udp: true
