@@ -385,8 +385,8 @@ proxies:
       Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
 - name: 新加坡.cf.vless-ws节点1                               #可自定义名称
   type: vless
-  server: 8.222.131.102                          #解析的域名或者优选域名IP
-  port: 80                                       #自定义的端口
+  server: 8.222.237.131                          #解析的域名或者优选域名IP
+  port: 8880                                       #自定义的端口
   uuid: a091ec88-6daa-440d-88fe-e1a50fbcc7ad       #自定义的uuid
   udp: true
   tls: false
@@ -437,7 +437,7 @@ proxies:
       Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
 - name: 新加坡.cf.vless-ws节点2                               #可自定义名称
   type: vless
-  server: 43.134.165.18                          #解析的域名或者优选域名IP
+  server: 8.222.164.209                          #解析的域名或者优选域名IP
   port: 8880                                       #自定义的端口
   uuid: a091ec88-6daa-440d-88fe-e1a50fbcc7ad       #自定义的uuid
   udp: true
