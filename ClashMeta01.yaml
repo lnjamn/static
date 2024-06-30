@@ -342,6 +342,45 @@ proxies:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
       Host: wkvless.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
+- name: 豪恩斯洛-英国01-wkvless.lnjamn.cn.eu.org                           #可自定义名称
+  type: vless
+  server: 143.47.243.144                          #解析的域名或者优选域名IP
+  port: 8443                                      #自定义的端口
+  uuid: a091ec88-6daa-440d-88fe-e1a50fbcc7ad       #自定义的uuid
+  udp: true
+  tls: true
+  network: ws
+  servername: wkvless.lnjamn.cn.eu.org                     #sni域名，与下面的host一致
+  ws-opts:
+    path: "/?ed=2048"                              #" "内自定义的path路径
+    headers:
+      Host: wkvless.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
+- name: 德赖艾希-德国02-wkvless.lnjamn.cn.eu.org                           #可自定义名称
+  type: vless
+  server: 129.159.197.137                          #解析的域名或者优选域名IP
+  port: 8443                                      #自定义的端口
+  uuid: a091ec88-6daa-440d-88fe-e1a50fbcc7ad       #自定义的uuid
+  udp: true
+  tls: true
+  network: ws
+  servername: wkvless.lnjamn.cn.eu.org                     #sni域名，与下面的host一致
+  ws-opts:
+    path: "/?ed=2048"                              #" "内自定义的path路径
+    headers:
+      Host: wkvless.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
+- name: 德赖艾希-德国03-wkvless.lnjamn.cn.eu.org                           #可自定义名称
+  type: vless
+  server: 130.61.203.115                          #解析的域名或者优选域名IP
+  port: 8443                                      #自定义的端口
+  uuid: a091ec88-6daa-440d-88fe-e1a50fbcc7ad       #自定义的uuid
+  udp: true
+  tls: true
+  network: ws
+  servername: wkvless.lnjamn.cn.eu.org                     #sni域名，与下面的host一致
+  ws-opts:
+    path: "/?ed=2048"                              #" "内自定义的path路径
+    headers:
+      Host: wkvless.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
       
 
 #==============================（vless-ws节点）
@@ -559,6 +598,9 @@ proxy-groups:
      - 美国7
      - 美国6
      - 德赖艾希-德国01-wkvless.lnjamn.cn.eu.org
+     - 德赖艾希-德国02-wkvless.lnjamn.cn.eu.org
+     - 德赖艾希-德国03-wkvless.lnjamn.cn.eu.org
+     - 豪恩斯洛-英国01-wkvless.lnjamn.cn.eu.org
      - 香港.中西区.cf.vless-ws节点1
      - 香港.中西区.cf.vless-ws节点2
      - 香港.中西区.cf.vless-ws节点3
@@ -588,6 +630,9 @@ proxy-groups:
      - 美国7
      - 美国6
      - 德赖艾希-德国01-wkvless.lnjamn.cn.eu.org
+     - 德赖艾希-德国02-wkvless.lnjamn.cn.eu.org
+     - 德赖艾希-德国03-wkvless.lnjamn.cn.eu.org
+     - 豪恩斯洛-英国01-wkvless.lnjamn.cn.eu.org
      - 香港.中西区.cf.vless-ws节点1
      - 香港.中西区.cf.vless-ws节点2
      - 香港.中西区.cf.vless-ws节点3
@@ -619,6 +664,9 @@ proxy-groups:
     - 美国7
     - 美国6
     - 德赖艾希-德国01-wkvless.lnjamn.cn.eu.org
+    - 德赖艾希-德国02-wkvless.lnjamn.cn.eu.org
+    - 德赖艾希-德国03-wkvless.lnjamn.cn.eu.org
+    - 豪恩斯洛-英国01-wkvless.lnjamn.cn.eu.org
     - 香港.中西区.cf.vless-ws节点1
     - 香港.中西区.cf.vless-ws节点2
     - 香港.中西区.cf.vless-ws节点3
