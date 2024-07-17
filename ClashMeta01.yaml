@@ -355,6 +355,19 @@ proxies:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
       Host: wkvless.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
+- name: 豪恩斯洛-英国02-pgvless.lnjamn.cn.eu.org                           #可自定义名称
+  type: vless
+  server: 172.67.144.47                          #解析的域名或者优选域名IP
+  port: 8443                                      #自定义的端口
+  uuid: c3853442-1c89-47d9-83fc-ec6bd73fa06f       #自定义的uuid
+  udp: true
+  tls: true
+  network: ws
+  servername: pgvless.lnjamn.cn.eu.org                     #sni域名，与下面的host一致
+  ws-opts:
+    path: "/?ed=2048"                              #" "内自定义的path路径
+    headers:
+      Host: pgvless.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
 - name: 德赖艾希-德国02-wkvless.lnjamn.cn.eu.org                           #可自定义名称
   type: vless
   server: 129.159.197.137                          #解析的域名或者优选域名IP
@@ -601,6 +614,7 @@ proxy-groups:
      - 德赖艾希-德国02-wkvless.lnjamn.cn.eu.org
      - 德赖艾希-德国03-wkvless.lnjamn.cn.eu.org
      - 豪恩斯洛-英国01-wkvless.lnjamn.cn.eu.org
+     - 豪恩斯洛-英国02-pgvless.lnjamn.cn.eu.org
      - 香港.中西区.cf.vless-ws节点1
      - 香港.中西区.cf.vless-ws节点2
      - 香港.中西区.cf.vless-ws节点3
@@ -633,6 +647,7 @@ proxy-groups:
      - 德赖艾希-德国02-wkvless.lnjamn.cn.eu.org
      - 德赖艾希-德国03-wkvless.lnjamn.cn.eu.org
      - 豪恩斯洛-英国01-wkvless.lnjamn.cn.eu.org
+     - 豪恩斯洛-英国02-pgvless.lnjamn.cn.eu.org
      - 香港.中西区.cf.vless-ws节点1
      - 香港.中西区.cf.vless-ws节点2
      - 香港.中西区.cf.vless-ws节点3
@@ -667,6 +682,7 @@ proxy-groups:
     - 德赖艾希-德国02-wkvless.lnjamn.cn.eu.org
     - 德赖艾希-德国03-wkvless.lnjamn.cn.eu.org
     - 豪恩斯洛-英国01-wkvless.lnjamn.cn.eu.org
+    - 豪恩斯洛-英国02-pgvless.lnjamn.cn.eu.org
     - 香港.中西区.cf.vless-ws节点1
     - 香港.中西区.cf.vless-ws节点2
     - 香港.中西区.cf.vless-ws节点3
