@@ -301,6 +301,19 @@ proxies:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
       Host: pgvless.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
+- name: 美国.加州.聖荷西.cf.vless-ws节点8                               #可自定义名称
+  type: vless
+  server: 162.159.27.112                          #解析的域名或者优选域名IP
+  port: 8080                                       #自定义的端口
+  uuid: a091ec88-6daa-440d-88fe-e1a50fbcc7ad       #自定义的uuid
+  udp: true
+  tls: false
+  network: ws
+  servername: wkvless.lnjamn.workers.dev                     #sni域名，与下面的host一致
+  ws-opts:
+    path: "/?ed=2048"                              #" "内自定义的path路径
+    headers:
+      Host: wkvless.lnjamn.workers.dev                       #host域名，与上面的servername一致
       
 - name: 美国7                           #可自定义名称
   type: vless
@@ -608,6 +621,7 @@ proxy-groups:
      - 新加坡3
      - 新加坡4
      - 新加坡5
+     - 美国.加州.聖荷西.cf.vless-ws节点8
      - 美国7
      - 美国6
      - 德赖艾希-德国01-wkvless.lnjamn.cn.eu.org
@@ -641,6 +655,7 @@ proxy-groups:
      - 新加坡3
      - 新加坡4
      - 新加坡5
+     - 美国.加州.聖荷西.cf.vless-ws节点8
      - 美国7
      - 美国6
      - 德赖艾希-德国01-wkvless.lnjamn.cn.eu.org
@@ -676,6 +691,7 @@ proxy-groups:
     - 新加坡3
     - 新加坡4
     - 新加坡5
+    - 美国.加州.聖荷西.cf.vless-ws节点8
     - 美国7
     - 美国6
     - 德赖艾希-德国01-wkvless.lnjamn.cn.eu.org
