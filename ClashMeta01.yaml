@@ -688,12 +688,13 @@ proxy-groups:
     #- vless-reality-grpc节点
     #- vless-xtls-rprx-vision节点
     #- vless-ws-tls节点
-    - 新加坡3
-    - 新加坡4
-    - 新加坡5
+    - 美国1
     - 美国.加州.聖荷西.cf.vless-ws节点8
     - 美国7
     - 美国6
+    - 新加坡3
+    - 新加坡4
+    - 新加坡5
     - 德赖艾希-德国01-wkvless.lnjamn.cn.eu.org
     - 德赖艾希-德国02-wkvless.lnjamn.cn.eu.org
     - 德赖艾希-德国03-wkvless.lnjamn.cn.eu.org
@@ -708,7 +709,6 @@ proxy-groups:
     - 日本.成田市.cf.vless-ws节点
     - 美国.加州.聖荷西.cf.vless-ws节点
     - 美国.加州.东洛杉矶.cf.vless-ws节点
-    - 美国1
     - 美国2
     - 美国3
     - 美国4
