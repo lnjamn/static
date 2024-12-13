@@ -264,7 +264,7 @@ proxies:
  #==============================（vless-ws-tls节点）
 - name: 新加坡3                           #可自定义名称
   type: vless
-  server: 8.219.240.74                          #解析的域名或者优选域名IP
+  server: edtunnel-dgp.pages.dev                          #解析的域名或者优选域名IP
   port: 8443                                      #自定义的端口
   uuid: a091ec88-6daa-440d-88fe-e1a50fbcc7ad       #自定义的uuid
   udp: true
@@ -277,7 +277,7 @@ proxies:
       Host: wkvless.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
 - name: 新加坡4                           #可自定义名称
   type: vless
-  server: 8.219.250.251                         #解析的域名或者优选域名IP
+  server: 2606:4700::                         #解析的域名或者优选域名IP
   port: 8443                                      #自定义的端口
   uuid: c3853442-1c89-47d9-83fc-ec6bd73fa06f       #自定义的uuid
   udp: true
@@ -290,7 +290,7 @@ proxies:
       Host: pgvless.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
 - name: 新加坡5                           #可自定义名称
   type: vless
-  server: 111.119.213.65                         #解析的域名或者优选域名IP
+  server: www.visa.com.sg                         #解析的域名或者优选域名IP
   port: 443                                      #自定义的端口
   uuid: c3853442-1c89-47d9-83fc-ec6bd73fa06f       #自定义的uuid
   udp: true
