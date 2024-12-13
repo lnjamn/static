@@ -275,9 +275,9 @@ proxies:
     path: "/?ed=2048"                              #" "内自定义的path路径
     headers:
       Host: wkvless.lnjamn.cn.eu.org                       #host域名，与上面的servername一致
-- name: 新加坡4                           #可自定义名称
+- name: www.visa.com.hk                           #可自定义名称
   type: vless
-  server: 2606:4700::                         #解析的域名或者优选域名IP
+  server: www.visa.com.hk                        #解析的域名或者优选域名IP
   port: 8443                                      #自定义的端口
   uuid: c3853442-1c89-47d9-83fc-ec6bd73fa06f       #自定义的uuid
   udp: true
@@ -623,7 +623,7 @@ proxy-groups:
      - 美国7
      - 美国6
      - 新加坡3
-     - 新加坡4
+     - www.visa.com.hk
      - 新加坡5
      - 德赖艾希-德国01-wkvless.lnjamn.cn.eu.org
      - 德赖艾希-德国02-wkvless.lnjamn.cn.eu.org
@@ -657,7 +657,7 @@ proxy-groups:
      - 美国7
      - 美国6
      - 新加坡3
-     - 新加坡4
+     - www.visa.com.hk
      - 新加坡5
      - 德赖艾希-德国01-wkvless.lnjamn.cn.eu.org
      - 德赖艾希-德国02-wkvless.lnjamn.cn.eu.org
@@ -693,7 +693,7 @@ proxy-groups:
     - 美国7
     - 美国6
     - 新加坡3
-    - 新加坡4
+    - www.visa.com.hk
     - 新加坡5
     - 德赖艾希-德国01-wkvless.lnjamn.cn.eu.org
     - 德赖艾希-德国02-wkvless.lnjamn.cn.eu.org
