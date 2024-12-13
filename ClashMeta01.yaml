@@ -262,7 +262,7 @@ proxies:
   private-key: gK3C8ijdVlT7sd5fsdf5ssdfgsdfgsdfgobT2U+rgHo=  #获取private-key，私key
   udp: true
  #==============================（vless-ws-tls节点）
-- name: 新加坡3                           #可自定义名称
+- name: edtunnel-dgp.pages.dev                           #可自定义名称
   type: vless
   server: edtunnel-dgp.pages.dev                          #解析的域名或者优选域名IP
   port: 8443                                      #自定义的端口
@@ -622,7 +622,7 @@ proxy-groups:
      - 美国.加州.聖荷西.cf.vless-ws节点8
      - 美国7
      - 美国6
-     - 新加坡3
+     - edtunnel-dgp.pages.dev
      - www.visa.com.hk
      - 新加坡5
      - 德赖艾希-德国01-wkvless.lnjamn.cn.eu.org
@@ -656,7 +656,7 @@ proxy-groups:
      - 美国.加州.聖荷西.cf.vless-ws节点8
      - 美国7
      - 美国6
-     - 新加坡3
+     - edtunnel-dgp.pages.dev
      - www.visa.com.hk
      - 新加坡5
      - 德赖艾希-德国01-wkvless.lnjamn.cn.eu.org
@@ -692,7 +692,7 @@ proxy-groups:
     - 美国.加州.聖荷西.cf.vless-ws节点8
     - 美国7
     - 美国6
-    - 新加坡3
+    - edtunnel-dgp.pages.dev
     - www.visa.com.hk
     - 新加坡5
     - 德赖艾希-德国01-wkvless.lnjamn.cn.eu.org
